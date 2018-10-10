@@ -49,3 +49,18 @@ body {
 	width: 1100px;
 	background-image: url("../../Aangeleverd/Over'all Grid/img/banner_bg.png");
 }
+
+#bannerimg {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	position: relative;
+	width: 690px;
+}
+
+#block {
+	display: block;
+	width: 1100px;
+	height: 80px;
+	background-color: black;
+}
