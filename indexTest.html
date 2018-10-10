@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		.item1 { grid-area: header; }
+		.item2 { grid-area: main; }
+		.item3 { grid-area: right; }
+		.item4 { grid-area: footer; }
+
+		.grid-container {
+			display: grid;
+			grid-template-areas:
+			'header header header header header'
+			'main main main right right'
+			'footer footer footer footer footer';
+		}
+		.grid-container > div {
+			background-color: rgba(255, 255, 255, 0.8);
+			text-align: center;
+			padding: 20px 0;
+			font-size: 30px;
+		}
+		body{
+			margin: 0 auto;
+			width: 1100px;
+		}
+		.item1{
+			height: 78px;
+			background-image: url('img/header_bg.png')
+			
+		}
+		.item2{
+			background-image: url('img/banner_bg.png')
+		}
+		.item3{
+			background-image: url('img/banner_bg.png')
+		}
+		.HeaderIMG{
+			float: left;
+			margin-bottom: 10px;
+			margin-left: 50px
+		}
+		.bannerIMG{
+			float: left;
+			margin-left: 50px;
+			margin-bottom: 60px;
+		}
+		.BannerHeadText{
+			float: left;
+			margin-left: 30px;
+			font-size: 26px;
+			color: white;
+		}
+		.BannerParagraph{
+			float: left;
+			margin-left: 30px;
+			margin-right: 30px;
+			font-size: 14px;
+			color: white;
+		}
+		.Firstbutton{
+			float: left;
+			margin-top: 30px;
+			margin-left: 110px;
+
+			width: 70px;
+			border: none;
+			background-color: white;
+		}
+		.button{
+			float: left;
+			margin-top: 30px;
+			margin-left: 20px;
+
+			width: 70px;
+			border: none;
+			background-color: white;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+				<div class="item1">
+					<img src="img/logo.png" class="HeaderIMG">
+					<button class="Firstbutton">Home</button>
+					<button class="button">Auto's</button>
+					<button class="button">Kleding</button>
+					<button class="button">Blog</button>
+					<button class="button">Gallery</button>
+					<button class="button">Shortcodes</button>
+					<button class="button">Contact</button>
+				</div>
+				<div class="item2"><img src="img/banner.jpg" class="bannerIMG"></div> 
+				<div class="item3">
+					<h1 class="BannerHeadText">Let's talk business</h1><br>
+					<p class="BannerParagraph">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut.
+					<br><br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip.
+					<br><br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut.
+					</p>
+				</div>
+				<div class="item4">Footer</div>
+
+		</div>
+
+	</body>
+</html>
