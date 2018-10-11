@@ -6,13 +6,15 @@
 		.item2 { grid-area: main; }
 		.item3 { grid-area: right; }
 		.item4 { grid-area: footer; }
+		.item5 { grid-area: text; }
 
 		.grid-container {
 			display: grid;
 			grid-template-areas:
 			'header header header header header'
 			'main main main right right'
-			'footer footer footer footer footer';
+			'footer footer footer footer footer'
+			'text text text text text';
 		}
 		.grid-container > div {
 			background-color: rgba(255, 255, 255, 0.8);
@@ -23,6 +25,7 @@
 		body{
 			margin: 0 auto;
 			width: 1100px;
+			font-family: 'Lato', sans-serif;
 		}
 		.item1{
 			height: 78px;
@@ -47,34 +50,70 @@
 		}
 		.BannerHeadText{
 			float: left;
+			margin-top: 10px;
 			margin-left: 30px;
 			font-size: 26px;
 			color: white;
+			margin-bottom: 0px;
 		}
 		.BannerParagraph{
-			float: left;
 			margin-left: 30px;
 			margin-right: 30px;
 			font-size: 14px;
+			line-height: 20px;
 			color: white;
+			float: left;
+			text-align: left;
 		}
 		.Firstbutton{
 			float: left;
 			margin-top: 30px;
 			margin-left: 110px;
-
 			width: 70px;
 			border: none;
+			font-size: 14px;
 			background-color: white;
 		}
 		.button{
 			float: left;
 			margin-top: 30px;
 			margin-left: 20px;
-
 			width: 70px;
 			border: none;
+			font-size: 14px;
 			background-color: white;
+		}
+		.footerIMG1{
+			margin-left: 70px;
+			float: left;
+		}
+		.footerIMG2{
+			float: left;
+			margin-left: 30px;
+		}
+		.footerIMG3{
+			float: left;
+			margin-left: 30px;
+		}
+		.text1{
+			float: left;
+			margin-left: 75px;
+		}
+		.text2{
+			float: left;
+			margin-left: 100px;
+		}
+		.text3{
+			float: left;
+			margin-left: 130px;
+		}
+		.TextH{
+			font-size: 20px;
+			text-align: left;
+		}
+		.TextP{
+			font-size: 14px;
+			text-align: left;
 		}
 		</style>
 	</head>
@@ -95,21 +134,63 @@
 					<h1 class="BannerHeadText">Let's talk business</h1><br>
 					<p class="BannerParagraph">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut.
+						tempor incididunt ut labore et dolore magna aliqua. 
 					<br><br>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip.
+						Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. 
 					<br><br>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut.
+						Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 				</div>
-				<div class="item4">Footer</div>
-
+				<div class="item4">
+					<div class="FooterIMG">
+						<img src="img/fade-slider.png" class="footerIMG1">
+					</div>
+					<div class="FooterIMG">
+						<img src="img/nivo-slider.png" class="footerIMG2">
+					</div>
+					<div class="FooterIMG">
+						<img src="img/bonus-3d-slider.png" class="footerIMG3">
+					</div>
+				</div>
+				<div class="item5">
+					<div class="text1">
+						<h1 class="TextH">Proffesional Fade Slider</h1>
+						<p class="TextP">
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+						</p>
+					</div>
+					<div class="text2">
+						<h1 class="TextH">Awesome Nivo Slider</h1>
+						<p class="TextP">
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+						</p>
+					</div>
+					<div class="text3">
+						<h1 class="TextH">OverAll Bonus 3D Slider!</h1>
+						<p class="TextP">
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+							GhelloGhelloGhelloGhelloGhello<br>
+						</p>
+					</div>
+				</div>
 		</div>
-
 	</body>
 </html>
