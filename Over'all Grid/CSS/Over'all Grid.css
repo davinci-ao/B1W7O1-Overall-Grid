@@ -1,0 +1,314 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 26px;
+	line-height: 30px;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 22px;	
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#webpage {
+	width: 1100px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 120px 400px 480px 50px; 
+}
+
+#logo {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+#header_bg {
+	background-image: url("../../Aangeleverd/Over'all Grid/img/header_bg.png");
+	width: 1100px;
+	height: 100px;
+	display: grid;
+	grid-template-columns: 290px auto;	
+}
+
+#navbar {
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 130px;	
+}
+
+#navbar li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+#navbar li a:hover{
+	color: #000000;
+}
+
+#navbar li a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #777777;
+}
+
+#banner {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	background-image: url("../../Aangeleverd/Over'all Grid/img/banner_bg.png"); 
+	display: grid;
+	grid-template-columns: 760px auto;
+}
+
+#bannerimg {
+	margin-top: 20px;
+	margin-left: 50px; 
+}
+
+#bannertext {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	margin-right: 30px;
+	color: #ffffff;
+}
+
+#photos {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 3;
+	grid-row-end: 3;	
+	display: grid;
+	grid-template-columns: 330px 330px 330px;
+	grid-template-rows: 150px 250px 100px;
+	margin-left: 55px;
+	margin-top: 20px;
+}
+
+#fade-slider {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 1;
+	grid-row-end: 1;	
+}
+
+#nivo-slider {
+	grid-column-start: 2;
+	grid-column-end: 2;	
+	grid-row-start: 1;
+	grid-row-end: 1;	
+}
+
+#slider-3d {
+	grid-column-start: 3;
+	grid-column-end: 3;	
+	grid-row-start: 1;
+	grid-row-end: 1;	
+}
+
+#phototext {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 2;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-column-gap: 33px;				
+}
+
+#text1 {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 2;
+	grid-row-end: 2;		
+}
+
+#text2 {
+	grid-column-start: 2;
+	grid-column-end: 2;	
+	grid-row-start: 2;
+	grid-row-end: 2;		
+}
+
+#text3 {
+	grid-column-start: 3;
+	grid-column-end: 3;	
+	grid-row-start: 2;
+	grid-row-end: 2;		
+}
+
+#list {
+	grid-column-start: 1;
+	grid-column-end: 4;	
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+#click {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 3;
+	grid-row-end: 3;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-column-gap: 33px;
+	margin-left: -30px;
+	margin-top: 0px;			
+}
+
+#click li {
+	transition: 0.5s;
+}
+
+#click li a:hover {
+	color: #1d76a3;
+}
+
+#click li a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: #000000;
+}
+
+#footer {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 4;
+	grid-row-end: 4;
+	background-image: url("../../Aangeleverd/Over'all Grid/img/footer_bg.png");
+}
+
+#footertext {
+	margin-left: 480px;
+	color: #ffffff
+}
+
+#banner_auto {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	background-image: url("../../Aangeleverd/Over'all Grid/img/banner_bg.png"); 
+	display: grid;
+	grid-template-columns: 580px auto;
+}
+
+#img_auto {
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 50px;
+	border: #ffffff solid 10px; 
+}
+
+#bannertext_auto {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	margin-right: 30px;
+	color: #ffffff;
+}
+
+#auto_polo {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 145px;
+	border: #dddddd solid 5px; 		
+}
+
+#auto_t_roc {
+	grid-column-start: 2;
+	grid-column-end: 2;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 145px;
+	border: #dddddd solid 5px; 		
+}
+
+#auto_beetle_cabrio {
+	grid-column-start: 3;
+	grid-column-end: 3;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 145px;
+	border: #dddddd solid 5px; 		
+}
+
+#grid_kleding {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 120px 400px 600px 50px; 
+}
+
+#banner_kleding {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	background-image: url("../../Aangeleverd/Over'all Grid/img/banner_bg.png"); 
+	display: grid;
+	grid-template-columns: 580px auto;
+}
+
+#img_kleding {
+	height: 300px;
+	margin-top: 20px;
+	margin-left: 150px;
+	border: #ffffff solid 10px; 
+}
+
+#kleding_polo {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 250px;
+	border: #dddddd solid 5px;
+	margin-left: 50px; 		
+}
+
+#kleding_blouse {
+	grid-column-start: 2;
+	grid-column-end: 2;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 250px;
+	border: #dddddd solid 5px;
+	margin-left: 50px; 		
+}
+
+#kleding_t_shirt {
+	grid-column-start: 3;
+	grid-column-end: 3;	
+	grid-row-start: 1;
+	grid-row-end: 1;
+	height: 250px;
+	border: #dddddd solid 5px;
+	margin-left: 50px; 		
+}
+
+#phototext_kleding {
+	grid-column-start: 1;
+	grid-column-end: 1;	
+	grid-row-start: 2;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-column-gap: 33px;
+	margin-top: 120px;				
+}
